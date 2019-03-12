@@ -2,6 +2,6 @@
 - hosts: localhost
   become: yes
   roles:
-    - apache-role
+    - php-webserver
   vars:
     apache_server_admin: gfranchini@example.com # This will override our value in defaults/main.yml
