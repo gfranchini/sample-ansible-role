@@ -1,0 +1,4 @@
+---
+# defaults file for apache-role
+
+apache_server_admin: admin@example.com
